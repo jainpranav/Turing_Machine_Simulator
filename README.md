@@ -50,13 +50,13 @@ Where <state> is any text without spaces. It is not possible to specify more tha
 
 `<from_state>, <symbol_on_tape> -> <to_state>, <symbol_to_write>, <head_movement>`
 
-- <from_state> and <to_state> can be any text without spaces
-- <symbol_on_tape> and <symbol_to_write> can be any one character
-- <head_movement> must be one of the following characters :
+<from_state> and <to_state> can be any text without spaces
+<symbol_on_tape> and <symbol_to_write> can be any one character
+<head_movement> must be one of the following characters :
 
-'<' -- Move to the left
-'>' -- Move to the right
-'_' -- No movement
+- '<' -- Move to the left  
+- '>' -- Move to the right 
+- '_' -- No movement
 
 ## Contributing
 
